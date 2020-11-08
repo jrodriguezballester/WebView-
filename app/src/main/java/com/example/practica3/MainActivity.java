@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         // El método shouldOverrideUrlLoading () debe devolver falso si desea cargar la URL con su webView
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-                view.loadUrl(request.getUrl().toString());
+                // view.loadUrl(request.getUrl().toString());   // linea no necesaria recarga otra vez la pagina
                 return false;
             }
         // Poner el titulo de la pagina como titulo app

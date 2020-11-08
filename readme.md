@@ -23,6 +23,10 @@ Realización de una practica de embeber una pagina web en una webView android
  ![Screenshot](/imagenes/capt5.png)
 * Poner en el titulo de la App el titulo de la Web
 
+## Version 2.0
+
+Modificacion del codigo para que shouldOverrideUrlLoading solamente devuelva false; la carga de la view es innecesaria segun la documentacion
+![Screenshot](/imagenes/capt6.png)
 
 (<https://developer.android.com/reference/android/webkit/WebSettings>)
 (<https://developer.android.com/reference/android/webkit/WebViewClient>)
