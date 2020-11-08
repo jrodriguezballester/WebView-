@@ -14,15 +14,15 @@ Realización de una practica de embeber una pagina web en una webView android
 3) En el codigo de la activity (Main_activity.java)
 ![Screenshot](/imagenes/capt3.png)
     * Relacionar objeto grafico con objeto java
-    * Administrar las propiedades del WebView con WebSettings en particular dar acceso a javascript
-
- (<https://developer.android.com/reference/android/webkit/WebSettings>)
+    * Administrar las propiedades del WebView con WebSettings, acceso a javascript
     * Indicar la url de la web a embeber
-    * Utilizamos WebViewClient para obtener otras funcionalidades (<https://developer.android.com/reference/android/webkit/WebViewClient>)
+![Screenshot](/imagenes/capt4.png)
 
-      * Cargar los enlaces dentro del mismo webview
+* Utilizamos WebViewClient para obtener otras funcionalidades
+  * Cargar los enlaces dentro del mismo webview
+ ![Screenshot](/imagenes/capt5.png)
+* Poner en el titulo de la App el titulo de la Web
 
-      * Poner en el titulo de la App el titulo de la Web
-   ![Screenshot](/imagenes/capt5.png)
 
-
+(<https://developer.android.com/reference/android/webkit/WebSettings>)
+(<https://developer.android.com/reference/android/webkit/WebViewClient>)
